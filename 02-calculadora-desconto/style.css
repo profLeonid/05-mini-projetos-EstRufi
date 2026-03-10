@@ -109,6 +109,11 @@ button:hover {
   justify-content: center;
 }
 
+.ate5{
+  border: 2px solid #14532d;
+  box-shadow: 0, 0, 6  #c5f7d9;
+}
+
 footer {
   display: flex;
   align-items: flex-end;
