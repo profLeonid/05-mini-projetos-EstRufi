@@ -110,6 +110,16 @@ button:hover {
   justify-content: center;
 }
 
+.apto{
+  border: 2px solid #14532d;
+  box-shadow: 0 0 26 #9eddb7;
+}
+
+.nao-apto{
+  border: 2px solid #7f1d1d;
+  box-shadow: 0 0 26 #dda2a2;
+}
+
 footer {
   display: flex;
   align-items: flex-end;
