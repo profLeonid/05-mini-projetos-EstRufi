@@ -7,8 +7,14 @@ function calcularDesconto(){
     const calculo = (precoOriginal * descontinho) / 100
     const calculoFinal = precoOriginal - calculo
     const resultado = document.getElementById("result")
-    //console.log( calculo, precoOriginal, descontinho)
-    //console.log(calculoFinal)
 
     resultado.textContent = `Valor economizado é de ${calculo}, valor final será de ${calculoFinal}`
+
+    if(descontinho < 4.99)
+        resultado.classList.add("ate5")
+    else if(descontinho < 9.99)
+        resultado.classList.add("ate10")
+    else
+        resultado.classList.add("acima10")
+    
 }

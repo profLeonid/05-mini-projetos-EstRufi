@@ -110,8 +110,18 @@ button:hover {
 }
 
 .ate5{
-  border: 2px solid #14532d;
-  box-shadow: 0, 0, 6  #c5f7d9;
+  border: 5px solid #14532d;
+  box-shadow: 0 0 40px 13px  #14532d;
+}
+
+.ate10{
+  border: 5px solid #713f12;
+  box-shadow: 0 0 40px 13px  #713f12;
+}
+
+.acima10{
+  border: 5px solid #7f1d1d;
+  box-shadow: 0 0 40px 13px  #7f1d1d;
 }
 
 footer {
