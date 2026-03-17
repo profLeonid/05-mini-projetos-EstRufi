@@ -2,6 +2,11 @@
 
 const calcularMedia = (valor1,valor2,valor3) => (valor1 + valor2 + valor3) / 3
 
+function limparDados(){
+    document.getElementById("resultado")
+        .classList.remove("aprovado", "reprovado","recuperacao")
+}
+
 function situacaoAluno (media){
     if ( media >= 7)
         return "aprovado"
@@ -32,4 +37,5 @@ function handleClick(){
 
     resultado.textContent = `A sua média foi de ${media},\n meus parabéns você ${palavra}.`
     resultado.classList.add(cor)
+    limparDados()
 }

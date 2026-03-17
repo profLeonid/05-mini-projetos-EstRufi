@@ -117,13 +117,13 @@ button:hover {
 }
 
 .reprovado{
-  border: 5px solid #713f12;
-  box-shadow:inset 0 0 40px 13px  #713f12;
+  border: 5px solid #7f1d1d;
+  box-shadow:inset 0 0 40px 13px  #7f1d1d;
 }
 
 .recuperacao{
-  border: 5px solid #7f1d1d;
-  box-shadow: inset 0 0 40px 13px  #7f1d1d;
+  border: 5px solid #713f12;
+  box-shadow: inset 0 0 40px 13px  #713f12;
 }
 
 footer {
